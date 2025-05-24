@@ -1,4 +1,3 @@
-
 .header{
     position: relative;
     width: 1920px;
@@ -7,6 +6,7 @@
     z-index: 10;
     overflow: hidden;
     background: white;
+    margin: 0%;
 
 
 }
@@ -819,6 +819,8 @@
 @media screen and (max-width:480px) { 
 
     .header{
+    top:-10px ;
+    left: -7px;
     width:100%;
     height: 63px;
     position: relative;
@@ -937,12 +939,12 @@
        
 }
 .mob-vector{
-    position: relative;
+    display: block;
+    position:relative;
     width: 130%;
     height: 312px;
     top: -57.18px;
     left: -106px;
-    rotate: -36.71deg;
     z-index: 5;
 
 }
