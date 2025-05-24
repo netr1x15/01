@@ -156,7 +156,6 @@
 
 }
 .hero_laptop{
-    background-image: url(img2/hero-laptop.png);
     position: absolute;
     width: 497.9361267089844px;
     height: 298px;
@@ -166,7 +165,6 @@
    
 }
 .hero_phone{
-    background-image: url(img2/hero-phone.png); 
     position: absolute;
     width: 92;
     height: 187.1724090576172;
@@ -940,36 +938,59 @@
 }
 .mob-vector{
     display: block;
-    position:relative;
+    position: absolute;
     width: 130%;
     height: 312px;
-    top: -57.18px;
-    left: -106px;
+    top: 0px;
+    left:-125px ;
     z-index: 5;
 
 }
 .hero_circle-big{
     position:absolute;
-    width: 388px;
-    height: 388px;
-    border: 5px;
-    left: 1114px;
-    border-radius: 50%;
-    background: rgba(59, 129, 235, 1);
-    top: 122px;
-    z-index: 2;
+    width: 215.87254333496094px;
+    height: 215.87254333496094px;
+    top: 111.13px;
+    left: 70.53px;
+    opacity: 0.2;
+
     opacity: 20%;
 }
 .hero_circle-small{
     position: absolute;
-    width: 51px;
-    height: 51px;
-    border-radius: 50%;
-    border: 5px;
-    background: rgba(59, 129, 235, 1);
-    left: 1007px;
-    top: 102px;
-    opacity: 20%;
+    width: 28.375px;
+    height: 28.375px;
+    top: 91px;
+    left: 30px;
+    opacity: 0.2;
+
+}
+.hero_circle-small2{
+    width: 16.134803771972656px;
+    height: 16.134803771972656px;
+    top: 310.87px;
+    left: 67.75px;
+    opacity: 0.2;
+
+
+}
+.hero_laptop{
+    position: absolute;
+    width: 280px;
+    height: 160px;
+    top: 127.26px;
+    left: 20px;
+    z-index: 10;
+
+   
+}
+.hero_phone{
+    width: 54.52450942993164px;
+    height: 110.1617660522461px;
+    top: 211.83px;
+    left: 221.41px;
+    z-index: 15;
+    
 
 }
 
